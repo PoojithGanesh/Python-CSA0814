@@ -1,0 +1,7 @@
+#From the given list print the pair of elements adds upto the given target element
+lst = [1, 2, 3, 4, 5, 6]
+target = 7
+for i in range(len(lst)):
+    for j in range(i + 1, len(lst)):
+        if lst[i] + lst[j] == target:
+            print((lst[i], lst[j]))
