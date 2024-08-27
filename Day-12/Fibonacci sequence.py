@@ -4,5 +4,4 @@ def fibonacci(n):
     for _ in range(n):
         yield a
         a, b = b, a + b
-
-print(list(fibonacci(5)))
+print(list(fibonacci(5)))   #OutPut:[0, 1, 1, 2, 3]
